@@ -1,0 +1,333 @@
+{
+  "customerId": 1,
+  "customerName": "Laura J Donald123",
+  "customerInfo": [
+    "Cust ID : 004077852,",
+    "Collins- bldg eversholt street,",
+    " London AD455GF0 "
+  ],
+
+
+  "branchId": 1,
+  "BranchName": "Global Bank",
+  "branchInfo": [
+    "Branch ID : ULLS00012,",
+    "Saint College Rd,",
+    "PO BOX 345,",
+    "DUBLIN"
+  ],
+
+  "accountSummary": [
+    "Statement Date: 3 Oct 2015",
+    "Statement Period: 1 Oct 2015 to 31 Oct 2015",
+    "Account Number: 371860120",
+    "Unique Id No: IO2-6985-2658",
+    "RM Contact No: +44167000045"
+  ],
+
+  "accounts": [
+    {
+      "id": 1,
+      "account": "Current Account",
+      "currency": "GBP",
+      "amount": 50000.60,
+      "type": "Asset"
+    },
+    {
+      "id": 2,
+      "account": "Savings Account",
+      "currency": "GBP",
+      "amount": 280000.90,
+      "type": "Asset"
+    },
+    {
+      "id": 3,
+      "account": "Wealth",
+      "currency": "GBP",
+      "amount": 50000.60,
+      "type": "Asset"
+    },
+    {
+      "id": 4,
+      "account": "Fixed Deposit",
+      "currency": "GBP",
+      "amount": 150000.90,
+      "type": "Asset"
+    },
+    {
+      "id": 5,
+      "account": "Money In Cards",
+      "currency": "GBP",
+      "amount": 150000.70,
+      "type": "Liability"
+    },
+    {
+      "id": 6,
+      "account": "Loans",
+      "type": "Euro",
+      "amount": 120000.50,
+      "type": "Liability"
+    }
+  ],
+  "savingsTransactions": [
+    {
+      "id": 1,
+      "rootId": 1,
+      "date": "10-01-2015",
+      "narration": "Money In INTEREST CAPITALISED",
+      "credits": 30.12,
+      "debits": 30.12,
+      "closingBalance": 294897.37
+    },
+    {
+      "id": 2,
+      "rootId": 1,
+      "date": "10-07-2015",
+      "narration": "IMPS-P2A-428017802070-919999999999-ALL PAY 1014",
+      "credits": 30100.12,
+      "debits": 40.12,
+      "closingBalance": 264797.37
+    },
+    {
+      "id": 3,
+      "rootId": 1,
+      "date": "10-07-2015",
+      "narration": "NEFT DR-UTIB0000400-NETBANK, MUM-N280140036430105",
+      "closingBalance": 271991.57,
+      "debits": 7194.2,
+      "credits": 10.12
+    },
+    {
+      "id": 4,
+      "rootId": 1,
+      "date": "10-07-2015",
+      "narration": "NEFT DR-CITI0000003-MASTERCARD-NETBANK, MUM-N280140036430215",
+      "closingBalance": 276991.57,
+      "debits": 5000.00,
+      "credits": 10.12
+    },
+    {
+      "id": 5,
+      "rootId": 1,
+      "date": "10-07-2015",
+      "narration": "NEFT DR-HSBC0400002-NETBANK, MUM-N280140036430365",
+      "closingBalance": 279991.57,
+      "debits": 3000.00,
+      "credits": 10.21
+    },
+    {
+      "id": 6,
+      "rootId": 1,
+      "date": "10-08-2015",
+      "narration": "CASH DEP KAMALA MILLS",
+      "credits": 8000.23,
+      "debits": 20.12,
+      "closingBalance": 271991.57
+    },
+    {
+      "id": 7,
+      "rootId": 1,
+      "date": "10-08-2015",
+      "narration": "NEFT DR-CITI0000003-MASTERCARD-NETBANK, MUM-N251140032540146",
+      "closingBalance": 276991.57,
+      "debits": 5000.12,
+      "credits": 12.12
+    },
+    {
+      "id": 8,
+      "rootId": 1,
+      "date": "10-08-2015",
+      "narration": "NEFT DR-HSBC0400002-NETBANK, MUM-N251140032540714",
+      "closingBalance": 278991.57,
+      "debits": 2000.12,
+      "credits": 12.24
+    },
+    {
+      "id": 9,
+      "rootId": 1,
+      "date": "10-08-2015",
+      "narration": "NEFT CHGS INCL ST & CESS 220814",
+      "closingBalance": 278994.38,
+      "debits": 2.81,
+      "credits": 12.12
+    },
+    {
+      "id": 10,
+      "rootId": 1,
+      "date": "10-19-2015",
+      "narration": "ATW-5326760100165682-S1ANMI34-VILE PARLE E",
+      "closingBalance": 279994.38,
+      "debits": 1000.12,
+      "credits": 30.15
+    },
+    {
+      "id": 11,
+      "rootId": 1,
+      "date": "10-23-2015",
+      "narration": "NEFT CHGS INCL ST & CESS 080914",
+      "closingBalance": 280000.00,
+      "debits": 5.62,
+      "credits": 12.54
+    }
+  ],
+  "currentTransactions": [
+    {
+      "id": 1,
+      "rootId": 1,
+      "date": "10-02-2015",
+      "narration": "ATW-5326760100165682-S1ANMB49-VILEPARLE E",
+      "debits": 1000.12,
+      "closingBalance": 33980.72,
+      "credits": 100.25
+    },
+    {
+      "id": 2,
+      "rootId": 1,
+      "date": "10-02-2015",
+      "narration": "IMPS-P2A-412209892579-919999999999-CC PAYS DUE 0514",
+      "closingBalance": 45980.72,
+      "credits": 12000.12,
+      "debits": 100.50
+
+    },
+    {
+      "id": 3,
+      "rootId": 1,
+      "date": "10-16-2015",
+      "narration": "NEFT CHGS INCL ST & CESS 030414",
+      "debits": 5.62,
+      "closingBalance": 45975.10,
+      "credits": 200.50
+    },
+    {
+      "id": 4,
+      "rootId": 1,
+      "date": "10-25-2015",
+      "narration": "NET PO FROM HSL A/C 308500-00602340029444",
+      "debits": 10.12,
+      "closingBalance": 48696.63,
+      "credits": 2721.53
+    },
+    {
+      "id": 5,
+      "rootId": 1,
+      "date": "10-26-2015",
+      "narration": "POS 5326760100165682 INDIA P POS Money Out",
+      "debits": 1092.12,
+      "closingBalance": 47604.63,
+      "credits": 200.12
+    },
+    {
+      "id": 6,
+      "rootId": 1,
+      "date": "10-26-2015",
+      "narration": "INST-ALERT CHG INC ST & EC JAN-MAR2014",
+      "debits": 16.85,
+      "closingBalance": 47587.78,
+      "credits": 12.70
+    },
+    {
+      "id": 7,
+      "rootId": 1,
+      "date": "10-26-2015",
+      "narration": "IB FD PREMAT PRINCIPAL-50300037611031",
+      "debits": 10.20,
+      "closingBalance": 52587.78,
+      "credits": 5000.12
+    },
+    {
+      "id": 8,
+      "rootId": 1,
+      "date": "10-26-2015",
+      "narration": "IB FD PREMAT INT PAID-50300037611031",
+      "debits": 10.60,
+      "closingBalance": 52600.78,
+      "credits": 13.12
+    },
+    {
+      "id": 9,
+      "rootId": 1,
+      "date": "10-26-2015",
+      "narration": "NEFT DR-SBIN00CARDS-NETBANK, MUM-N116140014521010",
+      "debits": 2100.78,
+      "closingBalance": 50500.60,
+      "credits": 10.90
+    },
+    {
+      "id": 10,
+      "rootId": 1,
+      "date": "10-27-2015",
+      "narration": "ATW-5326760100165682-S1ANMB49-VILEPARLE E",
+      "debits": 500.90,
+      "closingBalance": 50000.30,
+      "credits": 20.23
+    }
+  ],
+  "MOBILEPAGE": {
+    "SERVICEID": [
+      "000008225001090",
+      "000008225001091"
+    ],
+    "ITEMIZEDATALIST": {
+      "ITEMIZEDDATA": [
+
+        {
+          "SERVID": "000008225001090",
+          "TYPEOFCALL": "Jan",
+          "SUBTYPE": "LOCAL",
+          "DATETIME": "12.05.2015 11:00:08",
+          "DESTN": "918225001090",
+          "ONOFF": "ANY",
+          "DURATION": " 13",
+          "CHARGES": " 6.00 ",
+          "SERVMODE": "LTE"
+        },
+        {
+          "SERVID": "000008225001090",
+          "TYPEOFCALL": "Feb",
+          "SUBTYPE": "LOCAL",
+          "DATETIME": "11.05.2015 12:37:55",
+          "DESTN": "918225001090",
+          "ONOFF": "ANY",
+          "DURATION": " 28",
+          "CHARGES": " 5.00 ",
+          "SERVMODE": "LTE"
+        },
+        {
+          "SERVID": "000008225001090",
+          "TYPEOFCALL": "March",
+          "SUBTYPE": "LOCAL",
+          "DATETIME": "09.05.2015 16:38:34",
+          "DESTN": "918225001090",
+          "ONOFF": "ANY",
+          "DURATION": " 3792",
+          "CHARGES": " 4.00 ",
+          "SERVMODE": "LTE"
+        },
+        {
+          "SERVID": "000008225001090",
+          "TYPEOFCALL": "April",
+          "SUBTYPE": "LOCAL",
+          "DATETIME": "09.05.2015 15:49:15",
+          "DESTN": "918225001061",
+          "ONOFF": "ONNET",
+          "DURATION": " 166",
+          "CHARGES": " 1.66 ",
+          "SERVMODE": "LTE"
+        },
+        {
+          "SERVID": "000008225001090",
+          "TYPEOFCALL": "May",
+          "SUBTYPE": "LOCAL",
+          "DATETIME": "09.05.2015 14:51:26",
+          "DESTN": "918225001061",
+          "ONOFF": "ONNET",
+          "DURATION": " 602",
+          "CHARGES": " 6.02 ",
+          "SERVMODE": "LTE"
+        }
+
+      ]
+    }
+  }
+}
